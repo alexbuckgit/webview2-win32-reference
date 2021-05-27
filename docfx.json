@@ -192,6 +192,14 @@
         ],
         "group": "webview2-355",
         "src": "0-8-355"
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "group": "webview2-preview",
+        "src": "preview"
       }
     ],
     "resource": [
@@ -304,6 +312,10 @@
       "webview2-355": {
         "dest": "webview2-win32",
         "moniker_range": "webview2-0.8.355"
+      },
+      "webview2-preview": {
+        "dest": "webview2-win32",
+        "moniker_range": "webview2-win32-preview"
       }
     },
     "markdownEngineName": "markdig"
